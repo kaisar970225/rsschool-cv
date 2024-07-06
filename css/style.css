@@ -4,6 +4,7 @@
 
 
 body {
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(49, 57, 57);
 }
@@ -41,6 +42,18 @@ header{
     border-radius: 100px;
     border: #b31212 2px solid;
 }
+.profile_photo{
+    background-image:url('../assets/img/profp.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    border: #b31212 1px solid;
+    height: 100%;
+    width: 28%;
+}
+img{
+    display: block;
+}
+
 .about{
     display: flex;
     flex-direction: row;
