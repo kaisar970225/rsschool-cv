@@ -139,6 +139,9 @@ img{
     height: 100px;
     background-color: rgb(38, 36, 36);
 }
-.copyrite{
+.copyrite {
     color: #cdcdcd;
+}
+.link_in_git{
+    color: #cdcdcd;;
 }
