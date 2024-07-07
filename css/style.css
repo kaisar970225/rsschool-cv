@@ -22,7 +22,7 @@ body {
 
 .container {
     margin: 20px auto;
-    width: 1024px;
+    width: 1440px;
     font-family: "Cabin", sans-serif;
     font-size: 18px;
     line-height: 1.5;
@@ -30,25 +30,69 @@ body {
     box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
   }
 header{
-    margin: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: #4c9998;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 150px;
+    height: 100px;
+}
+.logo_down{
+    width: 113px;
+    height: 80px;
+}
+.nav_list{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: #0f3f3e;
+}
+
+.initial_block{
+    padding-top: 25px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 .first_block{
     margin: 25px;
-    height: 200px;
-    width: 700px;
+    height: 300px;
+    width: 1100px;
     border-radius: 100px;
-    border: #b31212 2px solid;
+    /* border: #b31212 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 .profile_photo{
     background-image:url('../assets/img/profp.jpg');
     background-size: cover;
     border-radius: 50%;
-    border: #b31212 1px solid;
+    border: rgb(38, 36, 36) 3px solid;
     height: 100%;
     width: 28%;
+}
+.personal_information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 img{
     display: block;
@@ -57,25 +101,38 @@ img{
 .about{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 
 .left_block{
     margin: 10px;
-    height: 1000px;
+    height: 735px;
     width: 300px;
-    border: #b31212 1px solid;
+    /* border: #b31212 1px solid; */
     border-radius: 50px;
 }
 .right_block{
     margin: 10px;
-    height: 1000px;
+    height: 735px;
     width: 300px;
-    border: #b31212 1px solid;
+    /* border: #b31212 1px solid; */
     border-radius: 50px;
 }
+.information_blocks{
+    display: flex;
+    align-items: center;
+    border-bottom: #cdcdcd 3px solid;
+    height: 140px;
+    width: 330px;
+}
 .down_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 100px;
     background-color: rgb(38, 36, 36);
+}
+.copyrite{
+    color: #cdcdcd;
 }
