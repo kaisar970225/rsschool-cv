@@ -3,7 +3,7 @@ RSSchool-cv
 # Kaisar Moldazhan
 
 ## Courier in glovo delivery
-
+![It's me](https://photos.app.goo.gl/F1YShQpMmNcJNhvU8)
 ***
 
 ### Контактная информация:
@@ -21,7 +21,7 @@ RSSchool-cv
 
 ---
 
-##### ♦ языки
+#####  языки
 
 *английский - базовый.
 *казахский - родной.
