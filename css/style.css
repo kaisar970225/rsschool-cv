@@ -1,0 +1,27 @@
+.container {
+    margin: 20px auto;
+    width: 1440px;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(49, 57, 57);
+}
+
+.avatar {
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+}
+.avatar-photo{
+    height: 100%;
+    width: 100%;
+}
