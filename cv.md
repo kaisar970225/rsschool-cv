@@ -1,4 +1,4 @@
-RSSchool-cv
+CV
 
 # Kaisar Moldazhan
 
