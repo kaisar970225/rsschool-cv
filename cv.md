@@ -1,4 +1,7 @@
+CV
+
 RSSchool-cv
+
 
 # Kaisar Moldazhan
 
@@ -26,4 +29,3 @@ RSSchool-cv
 * казахский - родной.
 * русский - родной.
 
----
