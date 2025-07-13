@@ -66,12 +66,24 @@ a{
 a:hover {
     color: #cc881b;
 }
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 80%;
+}
 .avatar {
-    object-fit: cover;
-    width: 200px;
+    width: 300px;
     height: 300px;
 }
-.avatar-photo{
-    height: 100%;
+.avatar-container {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contact-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
