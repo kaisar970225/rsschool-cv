@@ -58,6 +58,14 @@ header{
     font-weight: 600;
 }
 
+a{
+    text-decoration: none;
+    color: #0f3f3e;
+    transition: color 0.5s;
+}
+a:hover {
+    color: #cc881b;
+}
 .avatar {
     object-fit: cover;
     width: 200px;
