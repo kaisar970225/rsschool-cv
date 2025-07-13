@@ -1,5 +1,8 @@
 CV
 
+RSSchool-cv
+
+
 # Kaisar Moldazhan
 
 ## Courier in glovo delivery
@@ -26,4 +29,3 @@ CV
 * казахский - родной.
 * русский - родной.
 
----
