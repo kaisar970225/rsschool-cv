@@ -5,15 +5,22 @@ html{
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: "Amaz_Obitaem_Ostrov_Bold";
+    src: url("../fonts/AmazObitaemOstrovBold.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Amaz_Obitaem_Ostrov_Bold", sans-serif;
     background-color: rgb(136, 172, 172);
 }
 .container {
     margin: 10px auto;
     width: 950px;
-    font-family: "Cabin", sans-serif;
+    font-family: "Amaz_Obitaem_Ostrov_Bold", sans-serif;
     font-size: 18px;
     line-height: 1.5;
     background-color: #ffffff;
