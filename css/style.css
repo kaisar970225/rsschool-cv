@@ -1,5 +1,38 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
     box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(136, 172, 172);
+}
+.container {
+    margin: 10px auto;
+    width: 950px;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #4c9998;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 7px;
+    width: 165px;
+    height: 80px;
 }
