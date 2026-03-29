@@ -135,7 +135,7 @@ a:hover {
 }
 .side-col {
   padding: 48px 32px;
-  background: #4a6464;
+  background: #f4f6f6;
   font-family: sans-serif;
 }
 
@@ -264,6 +264,48 @@ section:last-child {
         }
         .skill-fun {
             background: rgba(204,136,27,.12);
-            color: #8af1d3;
+            color: #377764;
             font-size: 19px;
+        }
+
+
+        .edu-item { margin-bottom: 20px; }
+        .edu-degree {
+            font-size: 14px;
+            font-weight: 600;
+            color: #0f3f3e;
+            line-height: 1.4;
+        }
+        .edu-uni {
+            font-size: 13px;
+            color: #4a6464;
+            margin-top: 2px;
+        }
+        .edu-year {
+            font-family: 'Space Mono', monospace;
+            font-size: 11px;
+            color: #cc881b;;
+            margin-top: 4px;
+        }
+
+
+
+        .lang-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+        .lang-name { font-size: 14px; font-weight: 600; color: #0f3f3e; }
+        .lang-level { font-size: 12px; color: #4a6464; }
+        .lang-bar-track {
+            height: 4px;
+            background: #dde9e9;
+            border-radius: 2px;
+            margin-top: 4px;
+        }
+        .lang-bar-fill {
+            height: 100%;
+            background: #4c9998;
+            border-radius: 2px;
         }
