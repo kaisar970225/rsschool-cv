@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav">
+                <div class="rss"><a href="https://rs.school/courses/javascript"><img src="../rsschool-cv/img/logos/rss-logo.svg"  alt="logo" class="logo"></a>
+                </div>
+                <ul class="nav_list">
+                    <li class="nav_items"><a href="#">Contacts</a></li>
+                    <li class="nav_items"><a href="#">Education</a></li>
+                    <li class="nav_items"><a href="#">Skills</a></li>
+                    <li class="nav_items"><a href="#">About</a></li>
+                    <li class="nav_items"><a href="#">Additionally</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="about">  
+            <div class="avatar"> 
+                <img class="avatar" src="img/avatar.png" alt="avatar">    
+            </div>
+            <div class="about-text"> 
+                
+                <h1>Kaisar Maratson</h1>
+                <p class = "about-subtitle">Junior Developer in Progress  Almaty, Kazakhstan</p> 
+                <div class="about-contacts">
+                    <a href="#" class="contact-pill">
+                        <span class="icon">&#128222;</span>
+                        +77054410618
+                    </a>
+                    <a href="#" class="contact-pill">
+                        <span class="icon">&#9993;</span>
+                        kaisar.maratson@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="main-col">
+                <section id="about-me" class="reveal">
+                    <p class="section-label">Introduction</p>
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-me-text">
+                        Меня зовут Kaisar, мне 29 лет. Родился и вырос в Казахстане. В настоящее время работаю курьером в Glovo,
+                    параллельно осваивая программирование. Имею высшее образование в области востоковедения.
+                    Моя цель — войти в сферу разработки, активно учиться и приобретать новые практические навыки.
+                    Готов к обучению и нацелен на результат.
+                    </p>
+                </section>
+
+                <!-- Опыт работы -->
+                <section id="experience" class="reveal">
+                    <p class="section-label">Work History</p>
+                    <h2 class="section-title">Experience</h2>
+                    <div class="job">
+                        <p class="job-title">Courier</p>
+                        <p class="job-company">Glovo</p>
+                        <p class="job-duration">2020 - Present</p>
+                        <ul class="job-list">
+                            <li>Deliver orders to customers</li>
+                            <li>Handle customer inquiries and complaints</li>
+                            <li>Maintain a high level of customer satisfaction</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="code" class="reveal">
+                    <p class="section-label">Code Samples</p>
+                    <h2 class="section-title">My Work</h2>
+                    <p style="font-size:14px;color:var(--muted);margin-bottom:16px;line-height:1.7;">
+                    Скрипт на JavaScript для сравнения двух массивов по длине и элементам:</p>
+                    <div class="code-card">
+                        <div class="code-header">
+                            <pre class="code-block">
+            <span class="code-language">JavaScript</span>
+    const arr1 = [2,5,-3,-3,10];
+    const arr2 = [2,5,-3,-3,10];
+    let sr = '';
+    for(i = 0; i &lt; arr1.length; i++){
+        if(arr1[i] !== arr2[i] || arr1.length !== arr2.length){
+            i = arr1.length;
+            sr = false;
+        }else{
+            sr = true;
+        };
+    }
+    console.log(sr);
+                            </pre>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="side-col">
+                <section id="skills" class="reveal">
+                <p class="section-label">Abilities</p>
+                <h2 class="section-title" style="font-size:18px;">Skills</h2>
+
+                <div class="skill-group">
+                    <p class="skill-group-title">Programming</p>
+                    <span class="skill-tag">JavaScript (basics)</span>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                </div>
+
+                <div class="skill-group">
+                    <p class="skill-group-title">Soft Skills</p>
+                    <span class="skill-tag">Time Management</span>
+                    <span class="skill-tag">Responsibility</span>
+                    <span class="skill-tag">Fast Learning</span>
+                </div>
+
+                <div class="skill-group">
+                    <p class="skill-group-title">Hobbies</p>
+                    <span class="skill-tag skill-fun">🧩 rubik's cube</span>
+                </div>
+            </section>
+
+            <section id="education" class="reveal">
+                <p class="section-label">Academic</p>
+                <h2 class="section-title" style="font-size:18px;">Education</h2>
+                <div class="edu-item">
+                    <p class="edu-degree">Бакалавр · Востоковедение</p>
+                    <p class="edu-uni">Казахстанский университет</p>
+                    <p class="edu-year">2015 — 2019</p>
+                </div>
+                <div class="edu-item">
+                    <p class="edu-degree">RS School — JavaScript / Frontend</p>
+                    <p class="edu-uni">The Rolling Scopes School</p>
+                    <p class="edu-year">2024 — настоящее время</p>
+                </div>
+            </section>
+
+            <section class="reveal">
+                <p class="section-label">Communication</p>
+                <h2 class="section-title" style="font-size:18px;">Languages</h2>
+
+                <div class="lang-item" style="flex-wrap:wrap;">
+                    <span class="lang-name">🇰🇿 Казахский</span>
+                    <span class="lang-level">Родной</span>
+                    <div class="lang-bar-track" style="width:100%">
+                        <div class="lang-bar-fill" style="width:100%"></div>
+                    </div>
+                </div>
+
+                <div class="lang-item" style="flex-wrap:wrap;">
+                    <span class="lang-name">🇷🇺 Русский</span>
+                    <span class="lang-level">Родной</span>
+                    <div class="lang-bar-track" style="width:100%">
+                        <div class="lang-bar-fill" style="width:100%"></div>
+                    </div>
+                </div>
+
+                <div class="lang-item" style="flex-wrap:wrap;">
+                    <span class="lang-name">🇬🇧 Английский</span>
+                    <span class="lang-level">A1–A2 Базовый</span>
+                    <div class="lang-bar-track" style="width:100%">
+                        <div class="lang-bar-fill" style="width:25%"></div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </div>
+
+        <footer>
+            © 2026 <a href="https://github.com/kaisar970225">
+                <img src="..//rsschool-cv/img/logos/25231.png" class="git" alt="git-logo">
+            </a> 
+                — Kaisar Maratson — Built with HTML CSS · RS School Project
+                <a href="https://rs.school/courses/javascript">
+                    <img src="..//rsschool-cv/img/logos/rs-school-logo.svg" class="rslogo" alt="rs-school-logo">
+                </a>
+        </footer>
+        
+        
+    </div>    
+    
+</body>
+</html>

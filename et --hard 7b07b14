@@ -1,0 +1,22 @@
+[33mf41b711[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mrsschool-cv-html[m[33m)[m HEAD@{0}: reset: moving to HEAD~2
+[33m7b07b14[m HEAD@{1}: commit: fix: add sections about me and experience
+[33m89ee55d[m HEAD@{2}: reset: moving to HEAD~2
+[33m6314462[m HEAD@{3}: commit: fix: add sections about me and experience
+[33m0b5596f[m HEAD@{4}: commit: fix: add emoji with phone and envelope
+[33m89ee55d[m HEAD@{5}: commit: fix: fix position on page
+[33mf41b711[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mrsschool-cv-html[m[33m)[m HEAD@{6}: commit: fix: add sections about and contacts
+[33m1a7437f[m[33m ([m[1;31morigin/rsschool-cv-html[m[33m)[m HEAD@{7}: commit: fix: add fonts for page
+[33m7d35866[m HEAD@{8}: commit: fix: add items and styles for navigation
+[33m243cda9[m HEAD@{9}: commit: fix: add styles for header and logo
+[33m2d5ae67[m HEAD@{10}: commit: fix: link style.css and add picture
+[33ma0446ff[m HEAD@{11}: commit: fix: link readme file
+[33mb7731e2[m HEAD@{12}: commit: feat: add picture in img folder for CV
+[33m96b73f4[m HEAD@{13}: commit: feat: add style.css file in css folder
+[33m72907c9[m HEAD@{14}: commit: feat: add index.html file
+[33m02d9ca0[m[33m ([m[1;31morigin/gh-pages[m[33m, [m[1;32mgh-pages[m[33m)[m HEAD@{15}: checkout: moving from gh-pages to rsschool-cv-html
+[33m02d9ca0[m[33m ([m[1;31morigin/gh-pages[m[33m, [m[1;32mgh-pages[m[33m)[m HEAD@{16}: commit: docs: add more information about myself in cv file
+[33m7d0db3f[m HEAD@{17}: commit: docs: add link to my cv in README.md
+[33m7c17e61[m HEAD@{18}: commit: docs: add information about myself in cv file
+[33m07ab732[m HEAD@{19}: commit: docs: Create cv file
+[33mbb992bb[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{20}: checkout: moving from main to gh-pages
+[33mbb992bb[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{21}: clone: from https://github.com/kaisar970225/rsschool-cv.git
