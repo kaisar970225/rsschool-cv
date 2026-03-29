@@ -13,7 +13,6 @@
             <nav class="nav">
                 <div class="rss"><a href="https://rs.school/courses/javascript"><img src="../rsschool-cv/img/logos/rss-logo.svg"  alt="logo" class="logo"></a>
                 </div>
-                <!-- навигация -->
                 <ul class="nav_list">
                     <li class="nav_items"><a href="#">Contacts</a></li>
                     <li class="nav_items"><a href="#">Education</a></li>
@@ -23,28 +22,84 @@
                 </ul>
             </nav>
         </header>
-        <h1>В общем это вот начало страницы</h1>
-        <div class="about">  <!--hero-->
-            <div class="avatar"> <!--avatar-ring-->
-
+        <div class="about">  
+            <div class="avatar"> 
+                <img class="avatar" src="img/avatar.png" alt="avatar">    
             </div>
-            <div class="about-text"> <!--hero-text-->
+            <div class="about-text"> 
+                
                 <h1>Kaisar Maratson</h1>
-                <p class = "about-subtitle">Junior Developer in Progress  Almaty, Kazakhstan</p> <!--hero-subtitle-->
+                <p class = "about-subtitle">Junior Developer in Progress  Almaty, Kazakhstan</p> 
                 <div class="about-contacts">
                     <a href="#" class="contact-pill">
-                        <span class="icon">трубка</span>
+                        <span class="icon">&#128222</span>
                         +77054410618
                     </a>
                     <a href="#" class="contact-pill">
-                        <span class="icon">конверт</span>
+                        <span class="icon">&#9993</span>
                         kaisar.maratson@gmail.com
                     </a>
                 </div>
             </div>
         </div>
-        <img src="img/avatar.png" alt="avatar" width="300" height="300">    
-        <p>css файл тоже есть</p>
+        <div class="content">
+            <div class="main-col">
+                <section id="about-me" class="reveal">
+                    <p class="section-label">Introduction</p>
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-me-text">
+                        Меня зовут Kaisar, мне 29 лет. Родился и вырос в Казахстане. В настоящее время работаю курьером в Glovo,
+                    параллельно осваивая программирование. Имею высшее образование в области востоковедения.
+                    Моя цель — войти в сферу разработки, активно учиться и приобретать новые практические навыки.
+                    Готов к обучению и нацелен на результат.
+                    </p>
+                </section>
+
+                <!-- Опыт работы -->
+                <section id="experience" class="reveal">
+                    <p class="section-label">Work History</p>
+                    <h2 class="section-title">Experience</h2>
+                    <div class="job">
+                        <p class="job-title">Courier</p>
+                        <p class="job-company">Glovo</p>
+                        <p class="job-duration">2020 - Present</p>
+                        <ul class="job-list">
+                            <li>Deliver orders to customers</li>
+                            <li>Handle customer inquiries and complaints</li>
+                            <li>Maintain a high level of customer satisfaction</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="code" class="reveal">
+                    <p class="section-label">Code Samples</p>
+                    <h2 class="section-title">My Work</h2>
+                    <p style="font-size:14px;color:var(--muted);margin-bottom:16px;line-height:1.7;">
+                    Скрипт на JavaScript для сравнения двух массивов по длине и элементам:</p>
+                    <div class="code-card">
+                        <div class="code-header">
+                            <pre class="code-block">
+            <span class="code-language">JavaScript</span>
+    const arr1 = [2,5,-3,-3,10];
+    const arr2 = [2,5,-3,-3,10];
+    let sr = '';
+    for(i = 0; i < arr1.length; i++){
+        if(arr1[i] !== arr2[i] || arr1.length !== arr2.length){
+            i = arr1.length;
+            sr = false;
+        }else{
+            sr = true;
+        };
+    }
+    console.log(sr);
+                            </pre>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        
     </div>    
     
 </body>
