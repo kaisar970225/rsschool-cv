@@ -6,21 +6,21 @@ html {
 }
 
 @font-face {
-  font-family: "Amaz_Obitaem_Ostrov_Bold";
-  src: url("../fonts/AmazObitaemOstrovBold.ttf") format("truetype");
+  font-family: "a_StamperRg";
+  src: url("../fonts/a_StamperRg.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
   margin: 0 auto;
-  font-family: "Amaz_Obitaem_Ostrov_Bold", sans-serif;
+  font-family: "a_StamperRg", sans-serif;
   background-color: rgb(136, 172, 172);
 }
 .container {
   margin: 10px auto;
   width: 950px;
-  font-family: "Amaz_Obitaem_Ostrov_Bold", sans-serif;
+  font-family: "a_StamperRg", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   background-color: #ffffff;
@@ -135,7 +135,8 @@ a:hover {
 }
 .side-col {
   padding: 48px 32px;
-  background: #6c757d;
+  background: #4a6464;
+  font-family: sans-serif;
 }
 
 section {
@@ -236,4 +237,33 @@ section:last-child {
             font-size: 14px;
             color: #e4e72d;
             overflow-x: auto;
+        }
+
+
+
+
+
+        .skill-group { margin-bottom: 24px; }
+        .skill-group-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 11px;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            color: #4c9998;
+            margin-bottom: 10px;
+        }
+        .skill-tag {
+            display: inline-block;
+            background: #e1f5f2;
+            color: #0f3f3e;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 5px 12px;
+            border-radius: 100px;
+            margin: 3px 3px 3px 0;
+        }
+        .skill-fun {
+            background: rgba(204,136,27,.12);
+            color: #8af1d3;
+            font-size: 19px;
         }
