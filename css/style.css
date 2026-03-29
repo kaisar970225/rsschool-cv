@@ -309,3 +309,36 @@ section:last-child {
             background: #4c9998;
             border-radius: 2px;
         }
+
+        footer {
+            background: #0f3f3e;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Space Mono', monospace;
+            font-size: 11px;
+            color: #5a8888;
+            letter-spacing: .06em;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .reveal {
+            opacity: 1;
+            transform: translateY(20px);
+            transition: opacity .5s ease, transform .5s ease;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: none;
+        }
+
+        .git {
+            width: 65px;
+            height: 65px;
+            margin-right: 6px;
+        }
+        .rslogo {
+            width: 125px;
+            margin-right: 6px;
+        }
